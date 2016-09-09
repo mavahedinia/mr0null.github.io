@@ -1,0 +1,146 @@
+body{
+	margin-top: 50px;
+	background-color: #333;
+}
+legend{
+	color: #fff;
+	text-align: center;
+	border-bottom: 1px solid #888;
+}
+h1,h2,h3,h4{
+	color: #fff;
+}
+code{
+	font-size: 24px;
+	background-color: #2a2a2a;
+}
+p{
+	color: #fff;
+}
+.footer-anchor,.footer-anchor:hover
+,.footer-anchor:focus{
+	text-decoration: none;
+	color: #c7254e;
+}
+img{
+	display: inline;
+}
+.row,.content{
+	margin: 0;
+	padding: 0;
+}
+.background{
+	height: 768px;
+}
+.navbar{
+	border-radius: 0;
+	background-color: rgb(122, 21, 0);
+	border-bottom: 1px solid rgb(153, 2, 0);
+}
+ul.nav.navbar-nav>li>a 
+,div.navbar-header>a.navbar-brand{
+	color: #fff;
+}
+.header{
+	color: #fff;
+	height: 450px;
+	text-align: center;
+	background-color: #A70000;
+}
+.block1{
+	background-color:#000;
+}
+.download-header{
+	width: 30%;
+	height: 30%;
+	margin-top: 25px;
+}
+.describe{
+	height: 300px;
+	margin-top:50px;
+	border-top: none;
+	border-left: none;
+	border-bottom: none; 
+	margin-bottom: 50px;
+	background-color: #333;
+	text-align-last: center;
+	border: 4px solid black;
+}
+.img-des{
+	width: 7vh;
+	height: 10vh;
+	margin-top: 25px;
+}
+.des-txt{
+	color: white;
+}
+.block2{
+	padding-top: 25px;
+	text-align: center;
+	padding-bottom: 50px;
+	background-color: #333;
+}
+.check{
+	color: green;
+}
+.developers{
+	color:#fff;
+	text-align: center;
+}
+.block3{
+	margin-left: auto;
+	padding-top: 50px;
+	padding-bottom: 0;
+	padding-left: 0;
+	padding-right: 0; 
+	background-color: #000;
+}
+.thumbnail{
+	width: 60%;
+	border:none;
+	height: 450px;
+	background-color: #333;
+}.thumbnail img{
+	border-radius: 7px;
+}
+.thumbnail h4{
+	color: #fff;
+}
+.social{
+	width: 100%;
+	height: 100%;
+	margin-top: 15px;
+	margin-right: 15px;
+}
+.dropdown-menu{
+	background-color: rgb(122, 21, 0);
+}
+.dropdown-menu > li > a{
+	color: #fff;
+	text-align: center;
+}
+.language{
+	width: 25px;
+	height: 25px;
+}
+.navbar-default .navbar-nav >
+ .open > 
+ a, .navbar-default .navbar-nav >
+  .open > 
+  a:focus, .navbar-default .navbar-nav > 
+.open > a:hover{
+	background-color: #A70000;
+}
+.footer{
+	background-color: #333;
+	padding-top: 25px;
+	padding-bottom: 25px; 
+}
+.footer-txt{
+	text-align: center
+}
+.btn-default,.btn-default:hover,
+.btn-default:focus{
+	background-color: #A70000;
+	color: #fff;
+}
