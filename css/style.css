@@ -1,0 +1,227 @@
+﻿ @font-face {
+   font-family: ubuntu;
+   src: url(../fonts/DroidNaskh-Regular.ttf);
+}
+.main{
+  padding-top:120px;
+}
+html{
+  position: relative;
+}
+body{
+  font-family: ubuntu;
+  background-color: #63193e;
+  margin-bottom: 150px;
+}
+.body-margin{
+  margin-top:60px;
+}
+a{
+  text-decoration: none;
+  color: #fff;
+}
+a:hover,
+a:focus{
+  color: #1897dd;
+  text-decoration: none;
+}
+.row,
+.container-fluid{
+  margin: 0;
+  padding: 0;
+}
+.background{
+  height: 100vh;
+  position: relative;
+  background-repeat: no-repeat;
+  background: url(../img/pattern.svg);
+}
+.nav{
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: #fff;
+  height: 60px;
+  position: absolute;
+  border-top: 1px solid #1897dd;
+  background: url(../img/pattern.svg);
+  border-style: dashed !important;
+  border-left:none !important;
+  border-right:none !important;
+  border-bottom: none !important;
+}
+.nav a{
+  display: block;
+  font-size: 20px;
+  height: 59px;
+  width: 150px;
+  padding-top: 15px;
+}
+.nav li{
+  height: 59px;
+}
+.nav li:hover{
+  background-color: rgba(0,0,0,0.23);
+}
+.navbar-list{
+  display: inline;
+  list-style-type: none;
+}
+.navbar-list>li{
+  width:150px;
+  display: inline-block;
+  text-align: center;
+}
+li.brand{
+  margin-right: 0;
+}
+#sticky.stick {
+  top: 0;
+  z-index: 10000;
+  position: fixed;
+  border:none !important;
+}
+#sticky-anchor{
+  bottom: 0;
+  margin-bottom:60px;
+  position: absolute;
+}
+.Icon{
+  width: 25vh;
+  height:25vh;
+  margin-top: 25vh;
+}
+p{
+  margin:0;
+}
+.btn-default{
+  color: #eee;
+  width: 150px;
+  height: 50px;
+  border-color: #1897dd;
+  background-color: transparent;
+}
+.linuxihaa{
+  color: #1897dd;
+}
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active,
+a.btn.btn-default.enter:active:focus{
+  color: #1897dd;
+  border-color: #1897dd;
+  background-color: rgba(0,0,0,0.23);
+}
+
+.enter{
+  margin-top: 25px;
+}
+.enter-txt{
+  margin-top: 2px;
+  font-size: 20px;
+  text-align: center;
+}
+#sticky-anchor.after-scroll{
+  bottom:0;
+  margin-bottom: 0;
+  position: absolute;
+}
+.main{
+  padding:25px;
+}
+.content{
+  border: 1px dashed #1897dd;
+  border-radius: 10px;
+  text-align: center;
+  color: #eee;
+  padding-top:60px;
+  margin:auto 25px 20px 25px;
+}
+.pabout{
+  font-size: 18px;
+}
+.screenshot{
+  height: 80%;
+  width: 80%;
+  margin: 25px 0px 25px 0px;
+  border-radius: 10px;
+}
+.Download-Persepolis{
+  color: #1897dd;
+}
+code{
+  background-color: #333;
+  color: #dd4818;
+  font-size: 24px;
+  margin-top: 10px;
+}
+.download>code{
+  direction: ltr !important;
+}
+.download{
+  padding-bottom: 25px;
+}
+.us{
+  padding:25px;
+}
+.thumbnail{
+  background-color: transparent;
+  border: none;
+}
+.thumbnail img{
+  width: 80%;
+  height: 80%;
+  border-radius: 10px;
+}
+h3{
+  color: #eee;
+}
+img.social-icons{
+  width: 45px;
+  height: 45px;
+}
+.thumbnail a > img{
+  margin: 10px;
+}
+.social-link{
+  width: 34px;
+  height: 34px;
+}
+.social ul{
+  list-style-type: none;
+  direction: ltr !important;
+}
+.social ul li{
+  display: inline-block;
+}
+.telegram{
+  margin-right: 30px;
+}
+.footer{
+  position: absolute;
+  left:0;
+  right:0;
+  bottom:0;
+  height: 150px;
+  background-color: #3F0C2B;
+}
+.row{
+  padding:0;
+  margin: 0;
+}
+#footer-row{
+  text-align: center;
+  color:#eee;
+  padding: 25px;
+}
+.footer-text{
+  font-size:18px;
+}
+.first{
+  margin-top:80px;
+}
+.mobile{
+  text-align: center;
+  color: #eee;
+  padding-top: 25px;
+}
