@@ -141,8 +141,8 @@ a.btn.btn-default.enter:active:focus{
   font-size: 18px;
 }
 .screenshot{
-  height: 80%;
-  width: 80%;
+  height: 60%;
+  width: 60%;
   margin: 25px 0px 25px 0px;
   border-radius: 10px;
 }
