@@ -1,6 +1,9 @@
 ﻿ @font-face {
    font-family: ubuntu;
-   src: url(../fonts/DroidNaskh-Regular.ttf);
+   src: url(https://static.ubuntu.ir/fonts/DroidNaskh-Regular.woff2);
+}
+.lang{
+	padding: 5px;
 }
 .main{
   padding-top:120px;
@@ -224,4 +227,12 @@ img.social-icons{
   text-align: center;
   color: #eee;
   padding-top: 25px;
+}
+.uk{
+	height: 80%;
+	width: 80%;
+}
+.footer{
+        border-top-right-radius: 80%;
+        border-top-left-radius: 80%;
 }
