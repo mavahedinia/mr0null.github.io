@@ -188,6 +188,7 @@ img.social-icons{
   height: 34px;
 }
 .social ul{
+  padding: 0;
   list-style-type: none;
   direction: ltr !important;
 }
