@@ -101,12 +101,34 @@
         <div class="content install" id="install">
           <h2>
             Installation
-          </h2>
-          <p class="pabout">
-			  Here We Described How To Install Persepolis On Debian And Debian Based Distros<br/>
-            You Can Also For Installing Persepolis On Other Distros Use  <a href="https://github.com/persepolisdm/persepolis/blob/master/README.md" target="_blank" class="linuxihaa">This Link </a>
-          </p>
-<script type="text/javascript" src="https://asciinema.org/a/32xv0hom8xvig0btyw1hn7xd4.js" id="asciicast-32xv0hom8xvig0btyw1hn7xd4" async></script>        </div>
+          </h2>	
+	<h3> Ubuntu and other Debian distro</h3>
+          <p class="pabout"></p>
+			 <h4> Here We Described How To Install Persepolis On Debian And Debian Based Distros<br/></h4>
+                        <script type="text/javascript" src="https://asciinema.org/a/32xv0hom8xvig0btyw1hn7xd4.js" id="asciicast-32xv0hom8xvig0btyw1hn7xd4" async></script>
+			<h4>You can also simply run these commands :<br/><h4>
+			<code> sudo add-apt-repository ppa:persepolis/ppa <br/>
+			 sudo apt update <br/>
+			 sudo apt install persepolis</code><br/>
+				
+			<h3> Arch and other Arch bases </h3>
+			<h4> for installing latest release (recommand) :</h4>
+			<code> yaourt -S persepolis </code>
+			<h4> or for latest change on github : </h4>
+			<code> yaourt -S persepolis-git</code>
+			<h5>Obviously you can't install both of persepolis and persepolis-git simoltaneously . and you must uninstall one of them(with pacman) for installing another one.</h5>
+	
+			<h3> Fedora </h3>
+			<code>  sudo dnf copr enable amirsamimi/persepolis </code><br/>
+			<code>  sudo dnf install persepolis</code>
+	 
+			<h3> openSUSE </h3>
+			<h4> follow this <a href="https://goo.gl/7p3MdK" class="linuxihaa">link</a></h4> 
+
+
+                         <br/> <h4>You Can Also For Installing Persepolis On Other Distros Use  <a href="https://github.com/persepolisdm/persepolis/blob/master/README.md#for-other-distributions-installing-from-github" target="_blank" class="linuxihaa">This Link </a>
+          </h4>
+        </div>
         <div class="content" id="firefox">
           <h2>
             Using In Firefox
@@ -116,12 +138,12 @@
 			Then In Flashgot Setting Open Prefrences And Add The "Persepolis Download Manager"<br/>
 			In The Executable Path Type This:<br/>
           <p class="pabout" dir="ltr">
-            /usr/bin/persepolis<br/>
+           <code> /usr/bin/persepolis</code><br/>
           </p>
           <p>
           In The Command Line Argument Template,Write This:
           <p dir="ltr">
-          [--link URL][--name FNAME][--referer REFERER][--headers HEADERS][--agent UA][--cookie COOKIE]<br/>
+          <code>[--link URL][--name FNAME][--referer REFERER][--headers HEADERS][--agent UA][--cookie COOKIE]</code><br/>
           </p>
           <img class="screenshot" src="https://camo.githubusercontent.com/2f599379f11d4afa9b0226f75d3dd675f412b1ce/687474703a2f2f73312e7069636f66696c652e636f6d2f66696c652f383236343638353831382f666c617368676f74312e706e67"/><br/>
           <p class="pabout">
