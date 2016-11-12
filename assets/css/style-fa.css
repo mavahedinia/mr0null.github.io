@@ -158,6 +158,9 @@ code{
   font-size: 24px;
   margin-top: 10px;
 }
+.nlink {
+  color: #F6C841;
+}
 .download>code{
   direction: ltr !important;
 }
