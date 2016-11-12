@@ -159,7 +159,7 @@ code{
   margin-top: 10px;
 }
 nlink {
-  color: #F6C841;
+  color: #F6C841 !important;
 }
 .download>code{
   direction: ltr !important;
