@@ -176,6 +176,9 @@ code{
 h3,h4{
   color: #eee;
 }
+.nlink{
+  color: #F6C841 !important;
+}
 img.social-icons{
   width: 45px;
   height: 45px;
