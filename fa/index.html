@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="../assets/css/bootstrap-rtl.min.css">
     <link rel="stylesheet" href="../assets/css/hover-min.css">
     <link rel="stylesheet" href="../assets/css/style-fa.css">
+    <link rel="stylesheet" href="assets/css/w3.css">
     <link rel="icon" href="../assets/img/favicon.svg">
     <script type="text/javascript" src="../assets/js/jquery.min.js"></script>
     <script type="text/javascript" src="../assets/js/app.js"></script>
@@ -92,8 +93,57 @@
             پرسپولیس یک پوسته گرافیکی برای آریا۲ میباشد که از پایتون قدرت گرفته است,<br>
             پرسپولیس نمونه ای از نرم افزار آزاد و متن باز است که برای توزیع های گنو/لینوکسی تولید شده و در آن از PyQT5 بهره برده ایم.<br>
             شما نیز اگر از توزیع های مبتنی بر گنو/لینوکس استفاده میکنید میتوانید به جمع کاربران پرسپولیس بپیوندید و در توسعه آن ما را یاری کنید.
-          </p>
-          <img src="../assets/img/pdman.jpeg" alt="دانلود منیجر پرسپولیس" class="screenshot"/>
+          </p></br>
+	<!--slider-->
+	<div class="w3-content w3-display-container" style="max-width:800px">
+ 	 <img class="mySlides" src="../assets/img/screen1.jpeg" style="width:100%">
+ 	 <img class="mySlides" src="../assets/img/screen5.jpeg" style="width:100%">
+	 <img class="mySlides " src="../assets/img/screen2.jpeg" style="width:100%">
+	 <img class="mySlides" src="../assets/img/screen3.jpeg" style="width:100%">
+	 <img class="mySlides" src="../assets/img/screen4.jpeg" style="width:100%">
+	 <img class="mySlides" src="../assets/img/screen6.jpeg" style="width:100%">
+	 <img class="mySlides" src="../assets/img/screen7.jpeg" style="width:100%">
+ 	 <div class="w3-center w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+ 	  <div class="w3-left w3-padding-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+  	  <div class="w3-right w3-padding-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+  	  <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+  	  <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+  	  <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+  	  <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(4)"></span>
+  	  <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(5)"></span>
+  	  <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(6)"></span>
+  	  <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(7)"></span>
+ 	 </div>
+	</div></br></br>
+	<!-- slider script -->
+	<script>
+	var slideIndex = 1;
+	showDivs(slideIndex);
+	function plusDivs(n) {
+  	showDivs(slideIndex += n);
+	}
+
+	function currentDiv(n) {
+  	showDivs(slideIndex = n);
+	}
+
+	function showDivs(n) {
+  	var i;
+  	var x = document.getElementsByClassName("mySlides");
+  	var dots = document.getElementsByClassName("demo");
+  	if (n > x.length) {slideIndex = 1}    
+  	if (n < 1) {slideIndex = x.length}
+  	for (i = 0; i < x.length; i++) {
+     	x[i].style.display = "none";  
+  	}
+  	for (i = 0; i < dots.length; i++) {
+     	dots[i].className = dots[i].className.replace(" w3-white", "");
+  	}
+  	x[slideIndex-1].style.display = "block";  
+  	dots[slideIndex-1].className += " w3-white"; 
+	}
+
+	</script>
         </div>
         <div class="content install" id="install">
           <h2>
