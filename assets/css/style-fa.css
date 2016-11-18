@@ -23,6 +23,9 @@ a{
   text-decoration: none;
   color: #fff;
 }
+.nlink{
+  color: #F6C841 !important;
+}
 a:hover,
 a:focus{
   color: #1897dd;
