@@ -92,9 +92,9 @@
         <div class="content first" id="persepolis">
           <h2>What Is Persepolis?</h2>
           <p class="pabout">
-            Persepolis Is A GUI For Aria2 Which Is Powered By Python.<br/>
-			Persepolis Is A Sample Of Free And Open Source Software And Developed For GNU/Linux Distributions.<br/>
-			If You Also Using Any GNU/Linux Distribution You Can Join Persepolis Users And Help Us With Developing It.
+            Persepolis Is A Download Manager And A GUI For Aria2 Which Is Powered By Python.<br/>
+			Persepolis Is A Sample Of Free And Open Source Software And Developed For GNU/Linux Distributions And Mac OS.<br/>
+			If You Also Using Any GNU/Linux Distribution And Mac OS You Can Join Persepolis Users And Help Us With Developing It.
           </p></br>
 	<!--slider-->
 	<div class="w3-content w3-display-container" style="max-width:800px">
@@ -159,22 +159,33 @@
 			<code> sudo add-apt-repository ppa:persepolis/ppa <br/>
 			 sudo apt update <br/>
 			 sudo apt install persepolis</code><br/>
-				
+			<br/>	
 			<h3> Arch and other Arch bases </h3>
 			<h4> for installing latest release (recommand) :</h4>
 			<code> yaourt -S persepolis </code>
 			<h4> or for latest change on github : </h4>
 			<code> yaourt -S persepolis-git</code>
 			<h5>Obviously you can't install both of persepolis and persepolis-git simoltaneously . and you must uninstall one of them(with pacman) for installing another one.</h5>
-	
+			<br/>
 			<h3> Fedora </h3>
 			<code>  sudo dnf copr enable amirsamimi/persepolis </code><br/>
-			<code>  sudo dnf install persepolis</code>
-	 
-			<h3> openSUSE </h3>
+			<code>  sudo dnf install persepolis</code><br/>
+			
+			<br/><h3> openSUSE </h3>
 			<h4> follow this <a href="https://goo.gl/7p3MdK" class="linuxihaa">link</a></h4> 
-
-
+			<br/>
+			<h3> Mac OS X</h3>
+			<h4>you must install aria2 python3 python3-requests python3-pyqt5 first! you can use <a href="http://brew.sh/" class="linuxihaa"> Brew</a> .</h4>
+			<code> brew install python3 </code><br/>
+			<code> brew install aria2 </code><br/>
+			<code> brew install pyqt5 </code><br/>
+			<code> pip3 install requests </code>
+			<h4>an alternative way for installing dependencies in mac , after cloning project you can run <code>dependay_mac</code> in terminal</4></br>
+			<h4>when dependencies installed :</h4>
+			<code> git clone "https://github.com/persepolisdm/persepolis.git" </code></br>
+			<code> cd persepolis </code></br>
+			<code> bash install mac </code></br>
+			<h4>you can find Persepolis Download Manager Icon in your Application folder and applications menu .</h4>
                          <br/> <h4>You Can Also For Installing Persepolis On Other Distros Use  <a href="https://github.com/persepolisdm/persepolis/blob/master/README.md#for-other-distributions-installing-from-github" target="_blank" class="linuxihaa">This Link </a>
           </h4>
         </div>
@@ -185,10 +196,12 @@
           <p class="pabout" >
             First,Install Flashgot <a href="https://addons.mozilla.org/en-US/firefox/addon/flashgot/" class="linuxihaa">From This Link</a><br/>
 			Then In Flashgot Setting Open Prefrences And Add The "Persepolis Download Manager"<br/>
-			In The Executable Path Type This:<br/>
+			In The Executable Path For GNU/LINUX Type This:<br/>
           <p class="pabout" dir="ltr">
            <code> /usr/bin/persepolis</code><br/>
           </p>
+		<p class="pabout"> And For Mac OS X Type :</p>
+		<code>/usr/local/bin/persepolis</code></br>
           <p>
           In The Command Line Argument Template,Write This:
           <p dir="ltr">
@@ -201,7 +214,7 @@
           </p>
           <img class="screenshot" src="https://camo.githubusercontent.com/3eec484e4745d9adc4506080b96f4cd42b1b9a27/687474703a2f2f73392e7069636f66696c652e636f6d2f66696c652f383236393037333133342f666c617368676f74342e6a7067"/><br/>
           <p class="pabout">
-			  Disable Automatic Downloads
+			  Disable Autostart Downloads
           </p>
           <img class="screenshot" src="https://camo.githubusercontent.com/d24341b2aa3073682d661c0b23ed51439e346b4a/687474703a2f2f73382e7069636f66696c652e636f6d2f66696c652f383236393037333638342f666c617368676f74322e6a7067"/><br/>
           <p class="pabout">
@@ -218,18 +231,19 @@
 		<a href="https://www.youtube.com/watch?v=p15H9VFlF68" class="nlink">Top 10 Linux Download Manager For Arch linux , Ubuntu , Debian , Linux Mint </a></br>
 		<a href="lincast.ir/perspolis-interview/" class="nlink">lincast - معرفی دانلود منیجر قدرتمند پرسپولیس</a><br/>
 		<a href="https://soshaw.net/persepolis-download-manager/" class="nlink">نوشته های یک دوستدار گنو/لینوکس - Persepolis Download Manager</a></br>
+		<a href="" class="nlink">معرفی پروژه دانلود منیجر پرسپولیس، این بار در مک او اس - هگز </a></br>
           
         </div>
         <div class="content us" id="us">
           <h2>Contact Us</h2>
           <div class="row">
-            <div class="col-sm-3 developer">
+            <div class="col-sm-2 developer">
               <div class="thumbnail">
                 <img src="https://avatars2.githubusercontent.com/u/7452500?v=3&s=400" alt="Alireza Amirsamimi"/>
                 <div class="caption">
-                  <h4>
+                  <h5>
                     Alireza Amirsamimi
-                  </h4><br/>
+                  </h5><br/>
                   <div class="row social">
                     <ul>
                       <li class="hvr-grow">
@@ -242,13 +256,13 @@
                 </div>
               </div>
             </div>
-            <div class="col-sm-3 developer">
+            <div class="col-sm-2 developer">
               <div class="thumbnail">
                 <img src="https://avatars0.githubusercontent.com/u/16784257?v=3&s=400" alt="Mohammad Sadegh"/>
                 <div class="caption">
-                  <h4>
+                  <h5>
                     Sadegh Alirezaie
-                  </h4><br/>
+                  </h5><br/>
                   <div class="row social">
                     <ul>
                       <li class="hvr-grow">
@@ -260,13 +274,13 @@
                   </div>
                 </div>
               </div>
-            </div><div class="col-sm-3 developer">
+            </div><div class="col-sm-2 developer">
               <div class="thumbnail">
                 <img src="https://avatars0.githubusercontent.com/u/12208050?v=3&s=466" alt="Mostafa Asadi"/>
                 <div class="caption">
-                  <h4>
+                  <h5>
                     Mostafa Asadi
-                  </h4><br/>
+                  </h5><br/>
                   <div class="row social">
                     <ul>
                       <li class="hvr-grow">
@@ -279,13 +293,32 @@
                 </div>
               </div>
             </div>
-            <div class="col-sm-3 developer">
+	     <div class="col-sm-2 developer">
+              <div class="thumbnail">
+                <img src="https://avatars3.githubusercontent.com/u/16556650?v=3&s=400" alt="Mohammad Amin Vahediniya"/>
+                <div class="caption">
+                  <h5>
+                    Mohammad Amin Vahediniya
+                  </h5></br>
+                  <div class="row social">
+                    <ul>
+                      <li class="hvr-grow">
+                        <a href="https://github.com/Mr0Null" target="_blank">
+                        <img src="assets/img/github.svg" alt="github" class="social-icons"/>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-2 developer">
               <div class="thumbnail">
                 <img src="https://avatars3.githubusercontent.com/u/2796369?v=3&s=400" alt="Mohammad Reza Abdollahzade"/>
                 <div class="caption">
-                  <h4>
+                  <h5>
                     MohammadReza AbdollahZade
-                  </h4>
+                  </h5>
                   <div class="row social">
                     <ul>
                       <li class="hvr-grow">

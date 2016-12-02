@@ -175,7 +175,7 @@ code{
 }.nlink{
   color: #F6C841 !important;
 }
-h3,h4{
+h3,h4,h5{
   color: #eee;
 }
 .nlink{
@@ -187,6 +187,7 @@ img.social-icons{
 }
 .thumbnail a > img{
   margin: 10px;
+  text-align: center;
 }
 .social-link{
   width: 34px;
