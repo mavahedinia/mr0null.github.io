@@ -1,0 +1,66 @@
+url: https://persepolisdm.github.io
+baseurl: /
+
+# Site settings
+title: Persepolis Download Manager
+logo: logo.png
+email: persepolis@beeit.ir
+description: "Persepolis Download Manager, is a graphical user interface (GUI) for aria2! Now it supports MacOs and all gnu/linux distributions."
+
+
+# Team names, titles and social links
+people:
+- name: Alireza AmirSamimi
+  pic: 1
+  position: Lead Programmer
+  social:
+    - title: twitter
+      url: #
+    - title: github
+      url: http://github.com/alireza-amirsamimi
+
+- name: MohammadAmin Vahedinia
+  pic: 2
+  position: MacOS Support
+  social:
+    - title: twitter
+      url: #
+    - title: github
+      url: http://github.com/Mr0Null
+
+- name: Mostafa Asadi
+  pic: 3
+  position: Ubuntu Support
+  social:
+    - title: twitter
+      url: #
+    - title: github
+      url: http://github.com/mostafaasadi
+
+- name: Sadegh Alirezaie
+  pic: 4
+  position: Site Support
+  social:
+    - title: twitter
+      url: #
+    - title: github
+      url: http://github.com/AlirezaieS
+
+- name: MohammadReza AbdollahZade
+  pic: 5
+  position: Arch Repo
+  social:
+    - title: twitter
+      url: #
+    - title: github
+      url: http://github.com/morealaz
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: http://twitter.com/jekyllrb
+  - title: github
+    url: https://github.com/persepolisdm/persepolis
+
+# Build settings
+markdown: kramdown
+permalink: pretty
