@@ -282,6 +282,11 @@ header {
     height: 40px;
     margin-top: -8px;
 }
+@media (max-width: 993px) {
+    .header-logo {
+        margin-right: -10px;
+    }
+}
 
 header .intro-text {
     padding-top: 100px;
