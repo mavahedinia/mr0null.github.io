@@ -14,7 +14,7 @@
                         <i class="fa fa-apple fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">Installing on MacOS</h4>
-                    <p class="text-muted">To install Persepolis on MacOS, you need to just simply download the latest package from <a href="https://github.com/persepolisdm/persepolis/releases">releases page</a> then copy then .app file to your Applications folder! Or if you prefer installing from source, you can follow the instructions on the <a href="https://github.com/persepolisdm/persepolis">project repo</a></p>
+                    <p class="">To install Persepolis on MacOS, you need to just simply download the latest package from <a href="https://github.com/persepolisdm/persepolis/releases">releases page</a> then copy then .app file to your Applications folder! Or if you prefer installing from source, you can follow the instructions on the <a href="https://github.com/persepolisdm/persepolis">project repo</a>.</p>
                 </div>
                 <div class="col-md-6">
                     <span class="fa-stack fa-4x">
@@ -22,7 +22,26 @@
                         <i class="fa fa-linux fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">Installing on gnu/Linux</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                    <h5>On Ubuntu and other Debian based distros:</h5>
+                    Simply run the following commands:
+                    <pre class="highlight"><code>sudo add-apt-repository ppa:persepolis/ppa
+sudo apt update
+sudo apt install persepolis
+</code></pre>
+
+<h5>Arch and other Arch bases:</h5>
+To install latest release (recommended):
+<pre class="highlight"><code>yaourt -S persepolis
+</code></pre>
+Or the latest version from github:
+<pre class="highlight"><code>yaourt -S persepolis-git
+</code></pre>
+<h5>Fedora:</h5>
+<pre class="highlight"><code>sudo dnf copr enable amirsamimi/persepolis
+sudo dnf install persepolis
+</code></pre>
+<h5>openSUSE:</h5>
+Follow <a href="https://goo.gl/7p3MdK">this link</a>.
                 </div>
             </div>
         </div>
