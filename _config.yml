@@ -14,8 +14,6 @@ people:
   pic: 1
   position: Lead Programmer
   social:
-    - title: twitter
-      url: #
     - title: github
       url: http://github.com/alireza-amirsamimi
 
@@ -23,8 +21,6 @@ people:
   pic: 2
   position: MacOS Support
   social:
-    - title: twitter
-      url: #
     - title: github
       url: http://github.com/Mr0Null
 
@@ -32,8 +28,6 @@ people:
   pic: 3
   position: Ubuntu Support
   social:
-    - title: twitter
-      url: #
     - title: github
       url: http://github.com/mostafaasadi
 
@@ -41,8 +35,6 @@ people:
   pic: 4
   position: Site Support
   social:
-    - title: twitter
-      url: #
     - title: github
       url: http://github.com/AlirezaieS
 
@@ -50,8 +42,6 @@ people:
   pic: 5
   position: Arch Repo
   social:
-    - title: twitter
-      url: #
     - title: github
       url: http://github.com/morealaz
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
