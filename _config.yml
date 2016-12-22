@@ -1,5 +1,5 @@
 url: https://mr0null.github.io
-baseurl: 
+baseurl:
 
 # Site settings
 title: Persepolis Download Manager
@@ -56,6 +56,8 @@ people:
       url: http://github.com/morealaz
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
+  - title: twitter
+    url: https://twitter.com/persepolisdm
   - title: github
     url: https://github.com/persepolisdm/persepolis
   - title: paper-plane
