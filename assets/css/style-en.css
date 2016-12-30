@@ -241,3 +241,6 @@ img.social-icons{
 li{
 	font-size: 18px;
 }
+div.row.social>ul{
+  padding: 0;
+}
