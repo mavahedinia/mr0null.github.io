@@ -284,7 +284,7 @@ header {
 }
 @media (max-width: 993px) {
     .header-logo {
-        margin-right: -10px;
+        margin-left: -10px;
     }
 }
 
@@ -369,7 +369,7 @@ section h3.section-subheading {
 }
 
 #portfolio .portfolio-item {
-    right: 0;
+    left: 0;
     margin: 0 0 15px;
 }
 
@@ -457,9 +457,9 @@ section h3.section-subheading {
     position: absolute;
     top: 0;
     bottom: 0;
-    left: 40px;
+    right: 40px;
     width: 2px;
-    margin-left: -1.5px;
+    margin-right: -1.5px;
     background-color: #f1f1f1;
 }
 
@@ -480,34 +480,34 @@ section h3.section-subheading {
 }
 
 .timeline>li .timeline-panel {
-    float: right;
+    float: left;
     position: relative;
     width: 100%;
     padding: 0 20px 0 100px;
-    text-align: left;
+    text-align: right;
 }
 
 .timeline>li .timeline-panel:before {
-    right: auto;
-    left: -15px;
-    border-right-width: 15px;
-    border-left-width: 0;
+    left: auto;
+    right: -15px;
+    border-left-width: 15px;
+    border-right-width: 0;
 }
 
 .timeline>li .timeline-panel:after {
-    right: auto;
-    left: -14px;
-    border-right-width: 14px;
-    border-left-width: 0;
+    left: auto;
+    right: -14px;
+    border-left-width: 14px;
+    border-right-width: 0;
 }
 
 .timeline>li .timeline-image {
     z-index: 100;
     position: absolute;
-    left: 0;
+    right: 0;
     width: 80px;
     height: 80px;
-    margin-left: 0;
+    margin-right: 0;
     border: 7px solid #f1f1f1;
     border-radius: 100%;
     text-align: center;
@@ -522,23 +522,23 @@ section h3.section-subheading {
 }
 
 .timeline>li.timeline-inverted>.timeline-panel {
-    float: right;
+    float: left;
     padding: 0 20px 0 100px;
-    text-align: left;
+    text-align: right;
 }
 
 .timeline>li.timeline-inverted>.timeline-panel:before {
-    right: auto;
-    left: -15px;
-    border-right-width: 15px;
-    border-left-width: 0;
+    left: auto;
+    right: -15px;
+    border-left-width: 15px;
+    border-right-width: 0;
 }
 
 .timeline>li.timeline-inverted>.timeline-panel:after {
-    right: auto;
-    left: -14px;
-    border-right-width: 14px;
-    border-left-width: 0;
+    left: auto;
+    right: -14px;
+    border-left-width: 14px;
+    border-right-width: 0;
 }
 
 .timeline>li:last-child {
@@ -561,7 +561,7 @@ section h3.section-subheading {
 
 @media(min-width:768px) {
     .timeline:before {
-        left: 50%;
+        right: 50%;
     }
 
     .timeline>li {
@@ -570,17 +570,17 @@ section h3.section-subheading {
     }
 
     .timeline>li .timeline-panel {
-        float: left;
+        float: right;
         width: 41%;
         padding: 0 20px 20px 30px;
-        text-align: right;
+        text-align: left;
     }
 
     .timeline>li .timeline-image {
-        left: 50%;
+        right: 50%;
         width: 100px;
         height: 100px;
-        margin-left: -50px;
+        margin-right: -50px;
     }
 
     .timeline>li .timeline-image h4 {
@@ -590,9 +590,9 @@ section h3.section-subheading {
     }
 
     .timeline>li.timeline-inverted>.timeline-panel {
-        float: right;
+        float: left;
         padding: 0 30px 20px 20px;
-        text-align: left;
+        text-align: right;
     }
 }
 
@@ -608,7 +608,7 @@ section h3.section-subheading {
     .timeline>li .timeline-image {
         width: 150px;
         height: 150px;
-        margin-left: -75px;
+        margin-right: -75px;
     }
 
     .timeline>li .timeline-image h4 {
@@ -634,7 +634,7 @@ section h3.section-subheading {
     .timeline>li .timeline-image {
         width: 170px;
         height: 170px;
-        margin-left: -85px;
+        margin-right: -85px;
     }
 
     .timeline>li .timeline-image h4 {
@@ -740,7 +740,7 @@ footer {
     text-align: center;
 }
 
-footer span.copyright {
+footer span.copyleft {
     text-transform: uppercase;
     text-transform: none;
     font-family: {{ site.data.template.font.primary }};
@@ -826,7 +826,7 @@ ul.social-buttons li a:active {
 .portfolio-modal .close-modal {
     position: absolute;
     top: 25px;
-    right: 25px;
+    left: 25px;
     width: 75px;
     height: 75px;
     background-color: transparent;
@@ -841,7 +841,7 @@ ul.social-buttons li a:active {
     z-index: 1051;
     width: 1px;
     height: 75px;
-    margin-left: 35px;
+    margin-right: 35px;
     background-color: #222;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
