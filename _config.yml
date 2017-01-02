@@ -11,36 +11,46 @@ description: "Persepolis Download Manager, is a graphical user interface (GUI) f
 # Team names, titles and social links
 people:
 - name: Alireza AmirSamimi
+  name-fa: علیرضا امیرصمیمی
   pic: 1
+  position-fa: برنامه‌نویس ارشد
   position: Lead Programmer
   social:
     - title: github
       url: http://github.com/alireza-amirsamimi
 
-- name: MohammadAmin Vahedinia
+- name-fa: محمدامین واحدی‌نیا
+  name: MohammadAmin Vahedinia
   pic: 2
   position: MacOS Support
+  position-fa: پشتیبانی مک
   social:
     - title: github
       url: http://github.com/Mr0Null
 
-- name: Mostafa Asadi
+- name-fa: مصطفی اسدی
+  name: Mostafa Asadi
   pic: 3
+  position-fa: پشتیبانی اوبونتو
   position: Ubuntu Support
   social:
     - title: github
       url: http://github.com/mostafaasadi
 
-- name: Sadegh Alirezaie
+- name-fa: صادق علیرضایی
+  name: Sadegh Alirezaie
   pic: 4
   position: Site Support
+  position-fa: پشتیبانی سایت
   social:
     - title: github
       url: http://github.com/AlirezaieS
 
-- name: MohammadReza AbdollahZade
+- name-fa: محمدرضا عبدالله‌زاده
+  name: MohammadReza AbdollahZade
   pic: 5
   position: Arch Repo
+  position-fa: پشتیبانی آرچ
   social:
     - title: github
       url: http://github.com/morealaz
