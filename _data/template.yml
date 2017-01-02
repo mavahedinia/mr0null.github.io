@@ -8,6 +8,6 @@ color:
 # Font Families
 font:
   #primary: 'Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif'
-  primary: '"PT Sans", sans-serif'
+  primary: '"Vazir", "PT Sans", sans-serif'
   #secondary: '"Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif'
-  secondary: '"PT Sans", sans-serif'
+  secondary: '"Vazir", "PT Sans", sans-serif'
