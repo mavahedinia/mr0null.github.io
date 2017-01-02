@@ -12,7 +12,7 @@ description: "Persepolis Download Manager, is a graphical user interface (GUI) f
 people:
 - name: Alireza AmirSamimi
   name-fa: علیرضا امیرصمیمی
-  pic: 1
+  pic: https://avatars2.githubusercontent.com/u/7452500?v=3&s=400
   position-fa: برنامه‌نویس ارشد
   position: Lead Programmer
   social:
@@ -21,7 +21,7 @@ people:
 
 - name-fa: محمدامین واحدی‌نیا
   name: MohammadAmin Vahedinia
-  pic: 2
+  pic: https://avatars1.githubusercontent.com/u/16556650?v=3&s=460
   position: MacOS Support
   position-fa: پشتیبانی مک
   social:
@@ -30,7 +30,7 @@ people:
 
 - name-fa: مصطفی اسدی
   name: Mostafa Asadi
-  pic: 3
+  pic: https://avatars0.githubusercontent.com/u/12208050?v=3&s=466
   position-fa: پشتیبانی اوبونتو
   position: Ubuntu Support
   social:
@@ -39,7 +39,7 @@ people:
 
 - name-fa: صادق علیرضایی
   name: Sadegh Alirezaie
-  pic: 4
+  pic: https://avatars0.githubusercontent.com/u/16784257?v=3&s=400
   position: Site Support
   position-fa: پشتیبانی سایت
   social:
@@ -48,7 +48,7 @@ people:
 
 - name-fa: محمدرضا عبدالله‌زاده
   name: MohammadReza AbdollahZade
-  pic: 5
+  pic: https://avatars3.githubusercontent.com/u/2796369?v=3&s=400
   position: Arch Repo
   position-fa: پشتیبانی آرچ
   social:
