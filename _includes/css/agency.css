@@ -6,7 +6,7 @@
 
 body {
     overflow-x: hidden;
-    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "PT Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #{{ site.data.template.color.secondary-dark }};
 }
 
@@ -303,7 +303,7 @@ header .intro-text .intro-lead-in {
 
 header .intro-text .intro-heading {
     margin-bottom: 25px;
-    text-transform: uppercase;
+/*    text-transform: uppercase; */
     font-family: {{ site.data.template.font.primary }};
     font-size: 50px;
     font-weight: 700;
@@ -326,11 +326,11 @@ header .intro-text .intro-heading {
 
     header .intro-text .intro-heading {
         margin-bottom: 50px;
-        text-transform: uppercase;
+/*        text-transform: uppercase;    */
         font-family: {{ site.data.template.font.primary }};
-        font-size: 75px;
+        font-size: 70px;
         font-weight: 700;
-        line-height: 75px;
+        line-height: 70px;
     }
 }
 
