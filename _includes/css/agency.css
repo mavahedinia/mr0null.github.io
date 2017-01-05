@@ -885,12 +885,12 @@ body {
   transform: rotate(180deg);
 }
 .team-en{
-	position: relative;
-	height: 300px;
+	position: relative !important;
+	height: 300px !important;
 }
 .social-buttons{
-    position: absolute;
-    bottom: 0;
-    right: 40%;
+    position: absolute !important;
+    bottom: 0 !important;
+    right: 40% !important;
 
 }
