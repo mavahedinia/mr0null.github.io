@@ -3,10 +3,11 @@ baseurl:
 
 # Site settings
 title: Persepolis Download Manager
+title-fa: دانلود منیجر پرسپولیس
 logo: logo.png
 email: persepolis@beeit.ir
-description: "Persepolis Download Manager, is a graphical user interface (GUI) for aria2! Now it supports MacOs and all gnu/linux distributions."
-
+description: "Persepolis Download Manager, is a libre and open-source download manager which is supported on GNU/Linux and MacOS!"
+description-fa: "پرسپولیس، یک دانلود منیجر آزاد و بازمتن هست که در حال حاضر، روی لینوکس و مکینتاش پشتیبانی می‌شود!"
 
 # Team names, titles and social links
 people:
@@ -54,6 +55,15 @@ people:
   social:
     - title: github
       url: http://github.com/morealaz
+
+- name-fa: جعفر آخوندعلی
+  name: Jafar Akhondali
+  pic: https://avatars2.githubusercontent.com/u/11364402?v=3&s=400
+  position: Browser Integrations
+  position-fa: پشتیبانی مرورگرها
+  social:
+    - title: github
+      url: http://github.com/JafarAkhondali
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
