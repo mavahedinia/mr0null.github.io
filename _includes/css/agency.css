@@ -886,7 +886,8 @@ body {
 }
 .team-en{
 	position: relative !important;
-	height: 300px !important;
+	height: 350px !important;
+	margin-top: 25px !important;
 }
 .social-buttons{
     position: absolute !important;
