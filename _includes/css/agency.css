@@ -884,3 +884,13 @@ body {
   display:inline-block;
   transform: rotate(180deg);
 }
+.team-en{
+	position: relative;
+	height: 300px;
+}
+.social-buttons{
+    position: absolute;
+    bottom: 0;
+    right: 40%;
+
+}
