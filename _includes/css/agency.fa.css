@@ -885,3 +885,20 @@ body {
   display:inline-block;
   transform: rotate(180deg);
 }
+.team-en{
+	position: relative !important;
+	height: 350px !important;
+	margin-top: 25px !important;
+}
+.github{
+    position: absolute !important;
+    bottom: 0 !important;
+    right: 40% !important;
+
+}
+footer{
+	padding-bottom: 0 !impoertant;	
+}
+.text-center{
+	margin-top: 25px !important;	
+}
