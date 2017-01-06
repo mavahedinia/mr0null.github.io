@@ -9,15 +9,15 @@
             </div>
             <div class="row">
                 {% for member in site.people %}
-                <div class="col-sm-3">
+                <div class="col-xs-4 col-sm-2 team-en">
                     <div class="team-member">
                         <img src="{{ member.pic }}" class="img-responsive img-circle" alt="">
                         <h4>{{ member.name-fa }}</h4>
                         <p class="text-muted">{{ member.position-fa }}</p>
-                        <ul class="list-inline social-buttons">
+                        <ul class="list-inline social-buttons github">
                             {% for network in member.social %}
                             <li>
-                                <a href="{{ network.url }}">
+                                <a href="{{ network.url }}" target="_blank">
                                     <i class="fa fa-{{ network.title }}"></i>
                                 </a>
                             </li>
