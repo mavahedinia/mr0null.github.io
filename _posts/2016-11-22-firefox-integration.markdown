@@ -1,14 +1,16 @@
 ---
-title:  Firefox Integration 
+title:  Firefox Integration
 subtitle: Use Persepolis as Firefox Download Manager
 layout: default
+tags:
+  - en
 modal-id: 2
 date: 2016-11-22
 img: addons.jpg
 thumbnail: addons.jpg
 alt: flashgot
 project-date: Dec 2016
-category: Integration 
+category: Integration
 ---
 <p class="pabout" >
             First,Install Flashgot <a href="https://addons.mozilla.org/en-US/firefox/addon/flashgot/" class="linuxihaa">From This Link</a><br/>
