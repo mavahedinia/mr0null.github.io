@@ -234,7 +234,7 @@ fieldset[disabled] .btn-xl.active {
     background-color: #{{ site.data.template.color.secondary }};
 }
 
-@media(min-width:768px) {
+@media(min-width:997px) {
     .navbar-default {
         padding: 25px 0;
         border: 0;
@@ -310,7 +310,7 @@ header .intro-text .intro-heading {
     line-height: 50px;
 }
 
-@media(min-width:768px) {
+@media(min-width:997px) {
     header .intro-text {
         padding-top: 300px;
         padding-bottom: 200px;
@@ -353,7 +353,7 @@ section h3.section-subheading {
     font-weight: 400;
 }
 
-@media(min-width:768px) {
+@media(min-width:997px) {
     section {
         padding: 150px 0;
     }
@@ -559,7 +559,7 @@ section h3.section-subheading {
     margin-bottom: 0;
 }
 
-@media(min-width:768px) {
+@media(min-width:997px) {
     .timeline:before {
         left: 50%;
     }
@@ -596,7 +596,7 @@ section h3.section-subheading {
     }
 }
 
-@media(min-width:992px) {
+@media(min-width:1000px) {
     .timeline>li {
         min-height: 150px;
     }
@@ -886,18 +886,18 @@ body {
 }
 .team-en{
 	position: relative !important;
-	height: 350px !important;
+	/*height: 350px !important;*/
 	margin-top: 25px !important;
 }
 .github{
-    position: absolute !important;
+    /*position: absolute !important;*/
     bottom: 0 !important;
     right: 40% !important;
 
 }
 footer{
-	padding-bottom: 0 !impoertant;	
+	padding-bottom: 0 !impoertant;
 }
 .text-center{
-	margin-top: 25px !important;	
+	margin-top: 25px !important;
 }
