@@ -18,12 +18,12 @@ project-date: Dec 2016
             سپس در صفحه تنظیمات افزونه بر روی تب Prefrences کلیک کرده و در قسمت Download Manager گزینه Add را انتخاب نمایید سپس نام Persepolis Download Manager را وارد نمایید.<br/>
             در قسمت Executable Path آدرس زیر را وارد کنید:<br/>
           <p class="pabout" dir="ltr">
-            /usr/bin/persepolis<br/>
+            <code>/usr/bin/persepolis</code>
           </p>
           <p>
           و در قسمت Command Line Argument Template متن زیر را وارد کنید:<br/>
           <p dir="ltr">
-          [--link URL][--name FNAME][--referer REFERER][--headers HEADERS][--agent UA][--cookie COOKIE]<br/>
+          <code>[--link URL][--name FNAME][--referer REFERER][--headers HEADERS][--agent UA][--cookie COOKIE]</code>
           </p>
           <img class="screenshot" src="/img/portfolio/screen11.png"/><br/>
           <p class="pabout">
