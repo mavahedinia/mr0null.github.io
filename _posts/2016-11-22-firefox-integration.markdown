@@ -21,12 +21,13 @@ category: Integration
           </p>
 		<p class="pabout"> And For Mac OS X Type :</p>
           <p class="pabout" dir="ltr">
-		<code>/usr/local/bin/persepolis</code>
+		<code>/Applications/Persepolis Download Manager.app/Contents/MacOS/Persepolis Download Manager</code>
+
           </p>
           <p>
           In The Command Line Argument Template,Write This:
           <p dir="ltr">
-          <code>[--link URL][--name FNAME][--referer REFERER][--headers HEADERS][--agent UA][--cookie COOKIE]</code><br/>
+          <code>[--link URL][--name FNAME][--referer REFERER][--headers HEADERS][--agent UA][--cookie COOKIE]</code>
           </p>
           <img class="screenshot" src="/img/portfolio/screen11.png"/><br/>
           <p class="pabout">

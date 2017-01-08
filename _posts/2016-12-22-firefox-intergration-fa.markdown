@@ -16,9 +16,14 @@ project-date: Dec 2016
   <p class="pabout" >
             ابتدا افزونه FlashGot را <a href="https://addons.mozilla.org/en-US/firefox/addon/flashgot/" class="linuxihaa">از این لینک </a>دانلود و نصب کنید.<br/>
             سپس در صفحه تنظیمات افزونه بر روی تب Prefrences کلیک کرده و در قسمت Download Manager گزینه Add را انتخاب نمایید سپس نام Persepolis Download Manager را وارد نمایید.<br/>
-            در قسمت Executable Path آدرس زیر را وارد کنید:<br/>
+            در قسمت Executable Path برای گنولینوکس آدرس زیر را وارد کنید:<br/>
           <p class="pabout" dir="ltr">
             <code>/usr/bin/persepolis</code>
+          </p>
+		<p class="pabout"> و برای مک‌او‌اس آدرس زیر را بنویسید : </p>
+          <p class="pabout" dir="ltr">
+		<code>/Applications/Persepolis Download Manager.app/Contents/MacOS/Persepolis Download Manager</code>
+
           </p>
           <p>
           و در قسمت Command Line Argument Template متن زیر را وارد کنید:<br/>
@@ -36,4 +41,3 @@ project-date: Dec 2016
           </p>
           <br/>
           <img class="screenshot" src="/img/portfolio/screen12.jpeg"/><br/>
-        </div>
