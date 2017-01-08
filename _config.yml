@@ -13,7 +13,7 @@ description-fa: "پرسپولیس، یک دانلود منیجر آزاد و ب�
 people:
 - name: Alireza AmirSamimi
   name-fa: علیرضا امیرصمیمی
-  pic: https://avatars2.githubusercontent.com/u/7452500?v=3&s=400
+  pic: https://avatars2.githubusercontent.com/u/7452500
   position-fa: برنامه‌نویس ارشد
   position: Lead Programmer
   social:
@@ -22,7 +22,7 @@ people:
 
 - name-fa: محمدامین واحدی‌نیا
   name: MohammadAmin Vahedinia
-  pic: https://avatars1.githubusercontent.com/u/16556650?v=3&s=460
+  pic: https://avatars1.githubusercontent.com/u/16556650
   position: MacOS Support
   position-fa: پشتیبانی مک
   social:
@@ -40,16 +40,16 @@ people:
 
 - name-fa: صادق علیرضایی
   name: Sadegh Alirezaie
-  pic: https://avatars0.githubusercontent.com/u/16784257?v=3&s=400
+  pic: https://avatars0.githubusercontent.com/u/16784257
   position: Site Support
   position-fa: پشتیبانی سایت
   social:
     - title: github
       url: http://github.com/AlirezaieS
 
-- name-fa: محمدرضا عبدالله‌زاده
-  name: MohammadReza AbdollahZade
-  pic: https://avatars3.githubusercontent.com/u/2796369?v=3&s=400
+- name-fa: محمدرضا عبداله‌زاده
+  name: Mohammadreza Abdollahzadeh
+  pic: https://avatars3.githubusercontent.com/u/2796369
   position: Arch Repo
   position-fa: پشتیبانی آرچ
   social:
@@ -58,7 +58,7 @@ people:
 
 - name-fa: جعفر آخوندعلی
   name: Jafar Akhondali
-  pic: https://avatars2.githubusercontent.com/u/11364402?v=3&s=400
+  pic: https://avatars2.githubusercontent.com/u/11364402
   position: Browser Integrations
   position-fa: پشتیبانی مرورگرها
   social:
@@ -66,6 +66,8 @@ people:
       url: http://github.com/JafarAkhondali
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
+  - title: arrow-circle-up
+    url: /#page-top
   - title: twitter
     url: https://twitter.com/persepolisdm
   - title: github
