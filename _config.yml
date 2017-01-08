@@ -66,8 +66,6 @@ people:
       url: http://github.com/JafarAkhondali
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: arrow-circle-up
-    url: /#page-top
   - title: twitter
     url: https://twitter.com/persepolisdm
   - title: github
