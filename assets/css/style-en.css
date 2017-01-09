@@ -211,8 +211,6 @@ img.social-icons{
 	bottom:0;
 	height: 150px;
 	background-color: #3F0C2B;
-	border-top-right-radius: 80%;
-	border-top-left-radius: 80%;
 }
 .row{
   padding:0;
@@ -248,6 +246,7 @@ img.social-icons{
 li{
 	font-size: 18px;
 }
+<<<<<<< HEAD
 ul{
    padding: 0;
 }
@@ -274,3 +273,8 @@ ul{
 .w3-hover-white{-webkit-transition:background-color .3s,color .15s,box-shadow .3s,opacity 0.3s,filter 0.3s;transition:background-color .3s,color .15s,box-shadow .3s,opacity 0.3s,filter 0.3s}
 .w3-content{max-width:980px;margin:auto}
 .w3-display-container{position:relative}
+=======
+div.row.social>ul{
+  padding: 0;
+}
+>>>>>>> origin/master
