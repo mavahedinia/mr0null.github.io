@@ -1,0 +1,49 @@
+<!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Get Started</h2>
+                    <h3 class="section-subheading text-muted">Here is instructions on how to install:</h3>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-6">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-linux fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Installing on GNU/Linux</h4>
+                    <h5>On Ubuntu and other Debian based distros:</h5>
+                    Simply run the following commands:
+                    <pre class="highlight"><code>sudo add-apt-repository ppa:persepolis/ppa
+sudo apt update
+sudo apt install persepolis
+</code></pre>
+
+<h5>Arch and other Arch bases:</h5>
+To install latest release (recommended):
+<pre class="highlight"><code>yaourt -S persepolis
+</code></pre>
+Or the latest version from github:
+<pre class="highlight"><code>yaourt -S persepolis-git
+</code></pre>
+<h5>Fedora:</h5>
+<pre class="highlight"><code>sudo dnf copr enable amirsamimi/persepolis
+sudo dnf install persepolis
+</code></pre>
+<h5>openSUSE:</h5>
+Follow <a href="https://goo.gl/7p3MdK">this link</a>.
+                </div>
+                <div class="col-md-6">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-apple fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Installing on MacOS</h4>
+                    <p class="">To install Persepolis on MacOS, you need to just simply download the latest package from <a href="https://github.com/persepolisdm/persepolis/releases">releases page</a> then copy then .app file to your Applications folder! Or if you prefer installing from source, you can follow the instructions below:</p>
+                    <p>You should have Persepolis Download Manager dependecies installed at first! It is recommended to use brew to install dependecies. At first place, you need to have latest xCode installed! Then install python3, pyqt5 and qt5 from brew. After that, we need some python libraries, so install pyobjc and requests using pip3. Finally, your system is ready to build .app bundle for Persepolis Download Manager. At this step you can simply clone <a href="https://github.com/persepolisdm/mac-package-build">MacOS build repo</a> and change directory (cd) to the cloned or extracted directory, and run bash package_build. then you can see Persepolis Download Manager.app in current directory! or if you don't want to run than script, you can see what's there and run them yourself!</p>
+                </div>
+            </div>
+        </div>
+    </section>
