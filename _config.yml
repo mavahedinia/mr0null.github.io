@@ -1,0 +1,78 @@
+url: https://mr0null.github.io
+baseurl:
+
+# Site settings
+title: Persepolis Download Manager
+title-fa: دانلود منیجر پرسپولیس
+logo: logo.png
+email: persepolis@beeit.ir
+description: "Persepolis Download Manager, is a libre and open-source download manager which is supported on GNU/Linux and MacOS!"
+description-fa: "پرسپولیس، یک دانلود منیجر آزاد و بازمتن هست که در حال حاضر، روی لینوکس و مکینتاش پشتیبانی می‌شود!"
+
+# Team names, titles and social links
+people:
+- name: Alireza AmirSamimi
+  name-fa: علیرضا امیرصمیمی
+  pic: https://avatars2.githubusercontent.com/u/7452500
+  position-fa: برنامه‌نویس ارشد
+  position: Lead Programmer
+  social:
+    - title: github
+      url: http://github.com/alireza-amirsamimi
+
+- name-fa: محمدامین واحدی‌نیا
+  name: MohammadAmin Vahedinia
+  pic: https://avatars1.githubusercontent.com/u/16556650
+  position: MacOS Support
+  position-fa: پشتیبانی مک
+  social:
+    - title: github
+      url: http://github.com/Mr0Null
+
+- name-fa: مصطفی اسدی
+  name: Mostafa Asadi
+  pic: https://avatars0.githubusercontent.com/u/12208050
+  position-fa: پشتیبانی اوبونتو
+  position: Ubuntu Support
+  social:
+    - title: github
+      url: http://github.com/mostafaasadi
+
+- name-fa: صادق علیرضایی
+  name: Sadegh Alirezaie
+  pic: https://avatars0.githubusercontent.com/u/16784257
+  position: Site Support
+  position-fa: پشتیبانی سایت
+  social:
+    - title: github
+      url: http://github.com/AlirezaieS
+
+- name-fa: محمدرضا عبداله‌زاده
+  name: Mohammadreza Abdollahzadeh
+  pic: https://avatars3.githubusercontent.com/u/2796369
+  position: Arch Repo
+  position-fa: پشتیبانی آرچ
+  social:
+    - title: github
+      url: http://github.com/morealaz
+
+- name-fa: جعفر آخوندعلی
+  name: Jafar Akhondali
+  pic: https://avatars2.githubusercontent.com/u/11364402
+  position: Browser Integrations
+  position-fa: پشتیبانی مرورگرها
+  social:
+    - title: github
+      url: http://github.com/JafarAkhondali
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: https://twitter.com/persepolisdm
+  - title: github
+    url: https://github.com/persepolisdm/persepolis
+  - title: paper-plane
+    url: https://telegram.me/persepolisdm
+
+# Build settings
+markdown: kramdown
+permalink: pretty
