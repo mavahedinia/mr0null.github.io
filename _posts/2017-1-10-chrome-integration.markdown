@@ -6,8 +6,8 @@ tags:
   - en
 modal-id: 2
 date: 2016-11-22
-img: chrome.jpg
-thumbnail: chrome.jpg
+img: chrome.png
+thumbnail: chrome.png
 alt: chrome_ext
 project-date: Jan 2017
 category: Integration
