@@ -17,4 +17,7 @@ category: Integration
   Download And Install Persepolis Download Manager From
   <a href="https://chrome.google.com/webstore/detail/persepolis-download-manag/legimlagjjoghkoedakdjhocbeomojao" target="_blank">
     Chrome Store
-  </a>
+  </a><br/>
+  <p class="pabout">
+  After Installation, Open Persepolis And Click On `Help` Menu, Then Choose `Browser Intrgration`, Select Chromium And You're Done!
+  </p>
