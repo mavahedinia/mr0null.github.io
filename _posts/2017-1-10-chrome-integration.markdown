@@ -1,6 +1,6 @@
 ---
 title:  Chrome Integration
-subtitle: Use Persepolis as Chrome Download Manager
+subtitle: به راحتی در میان مرورگرتان دانلود کنید
 layout: default
 tags:
   - en
@@ -14,10 +14,11 @@ category: Integration
 ---
 
 <p class="pabout" >
-  Download And Install Persepolis Download Manager From
+  افزونه کروم را 
   <a href="https://chrome.google.com/webstore/detail/persepolis-download-manag/legimlagjjoghkoedakdjhocbeomojao" target="_blank">
-    Chrome Store
-  </a><br/>
+   از اینجا 
+  </a>
+  نصب کنید<br/>
   <p class="pabout">
-  After Installation, Open Persepolis And Click On `Help` Menu, Then Choose `Browser Intrgration`, Select Chromium And You're Done!
+  بعد از نصب، پرسپولیس را اجرا کنید و از منوی help, گزینه Browser Integration را انتخاب و مرورگر کروم را فعال کنید.
   </p>
