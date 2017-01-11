@@ -4,7 +4,7 @@ subtitle: به راحتی در میان مرورتان دانلود کنید
 layout: default
 tags:
   - fa
-modal-id: 100
+modal-id: 2
 date: 2016-12-22
 img: addons.jpg
 thumbnail: addons.jpg

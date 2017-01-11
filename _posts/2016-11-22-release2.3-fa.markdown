@@ -6,7 +6,7 @@ tags:
   - fa
 modal-id: 4
 date: 2017-1-9
-img: persepolis2.3.jpg
+img: persepolis2.3.png
 thumbnail: persepolis2.3.jpg
 alt: پرسپولیس ۲.۳!
 project-date: دی ۱۳۹۵

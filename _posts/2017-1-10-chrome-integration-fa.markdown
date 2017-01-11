@@ -4,7 +4,7 @@ subtitle: به راحتی در میان مرورگرتان دانلود کنید
 layout: default
 tags:
   - fa
-modal-id: 2
+modal-id: 3
 date: 2016-11-22
 img: chrome.png
 thumbnail: chrome.png
