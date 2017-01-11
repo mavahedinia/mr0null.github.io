@@ -7,7 +7,7 @@ tags:
 modal-id: 4
 date: 2017-1-9
 img: persepolis2.3.png
-thumbnail: persepolis2.3.jpg
+thumbnail: persepolis2.3.png
 alt: پرسپولیس ۲.۳!
 project-date: دی ۱۳۹۵
 category: انتشار
