@@ -19,8 +19,8 @@ category: نصب
 سپس سیستم را آپدیت کنید   
 `sudo apt-get update `  
 اگر با اخطار این چنینی روبرو شدید :  
-W: GPG error: http://ppa.launchpad.net/persepolis/ppa/ubuntu xenial InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY AC4E8D9CDCB0980D  
+`W: GPG error: http://ppa.launchpad.net/persepolis/ppa/ubuntu xenial InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY AC4E8D9CDCB0980D`  
 دستور زیر را وارد کنید :  
 `sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys AC4E8D9CDCB0980D `  
 پس از آپدیت ، پرسپولیس را نصب کنید و لذت ببرید  
-` sudo apt-get update && sudo apt-get install persepolis `  
+`sudo apt-get update && sudo apt-get install persepolis`

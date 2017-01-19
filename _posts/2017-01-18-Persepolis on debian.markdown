@@ -19,8 +19,8 @@ as fisrt step yuo must add persepolis ppa (repository) to your apt source file :
 after that , update system  
 `sudo apt-get update  `  
 if you meet an error about key signature like this :  
-W: GPG error: http://ppa.launchpad.net/persepolis/ppa/ubuntu xenial InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY AC4E8D9CDCB0980D  
-commend this :  
+`W: GPG error: http://ppa.launchpad.net/persepolis/ppa/ubuntu xenial InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY AC4E8D9CDCB0980D`  
+`commend this :  
 `sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys AC4E8D9CDCB0980D`  
 so update and enjoy persepolis  
 `sudo apt-get update && sudo apt-get install persepolis`  
