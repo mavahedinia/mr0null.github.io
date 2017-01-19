@@ -14,7 +14,7 @@ category: Install
 ---
 from today persepolis launchpad repository is also available for arm processor architecture , so you can enjoy persepolis on all debian bases such as jessie,raspbian,etc  
 as fisrt step yuo must add persepolis ppa (repository) to your apt source file :  
-`sudo echo "deb http://ppa.launchpad.net/persepolis/ppa/ubuntu xenial main
+`sudo echo "deb http://ppa.launchpad.net/persepolis/ppa/ubuntu xenial main  
 #deb-src http://ppa.launchpad.net/persepolis/ppa/ubuntu xenial main " > /etc/apt/sources.list.d/persepolis-ppa.list`  
 after that , update system  
 `sudo apt-get update  `  

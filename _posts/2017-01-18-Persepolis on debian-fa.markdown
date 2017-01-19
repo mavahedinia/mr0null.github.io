@@ -14,7 +14,7 @@ category: نصب
 ---
 از امروز مخازن لانچپد پرسپولیس برای پردازنده های معماری  آرم  نیز قابل دسترس است و تقریبا در همه توزیع های پایه دبیان مثل جسی ، رزبین و... می توانیداز پرسپولیس لذت ببرید  
 در قدم اول آدرس مخزن پرسپولیس را باید به فایل مخازن apt بیافزایید :  
-`sudo echo "deb http://ppa.launchpad.net/persepolis/ppa/ubuntu xenial main
+`sudo echo "deb http://ppa.launchpad.net/persepolis/ppa/ubuntu xenial main  
 #deb-src http://ppa.launchpad.net/persepolis/ppa/ubuntu xenial main " > /etc/apt/sources.list.d/persepolis-ppa.list`   
 سپس سیستم را آپدیت کنید   
 `sudo apt-get update `  
