@@ -1,6 +1,6 @@
 ---
 title:  Persepolis on Debian
-subtitle: install persepolis on all debian bases distros
+subtitle: install Persepolis on all debian bases distros
 layout: default
 tags:
   - en
@@ -12,8 +12,8 @@ alt: Raspbian
 project-date: Jan 2017
 category: Install
 ---
-from today persepolis's launchpad repository is also available for arm processor architectures , so you can enjoy persepolis on all debian bases such as jessie,raspbian,etc  
-as fisrt step you must add persepolis ppa (repository) to your apt source file :  
+from today Persepolis's launchpad repository is also available for arm processor architectures , so you can enjoy Persepolis on all debian bases such as jessie,raspbian,etc  
+as fisrt step you must add Persepolis ppa (repository) to your apt source file :  
 `sudo echo "deb http://ppa.launchpad.net/persepolis/ppa/ubuntu xenial main  
 #deb-src http://ppa.launchpad.net/persepolis/ppa/ubuntu xenial main " > /etc/apt/sources.list.d/persepolis-ppa.list`  
 after that , update system  
