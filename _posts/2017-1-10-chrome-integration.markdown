@@ -14,7 +14,7 @@ category: Integration
 ---
 
 <p class="pabout" >
-  Download And Install Persepolis Download Manager From
+  Download and install Persepolis Download Manager from
   <a href="https://chrome.google.com/webstore/detail/persepolis-download-manag/legimlagjjoghkoedakdjhocbeomojao" target="_blank">
     Chrome Store
   </a><br/>
@@ -22,6 +22,6 @@ category: Integration
  1 Install our chrome extensions<br>
  2 Open persepolis . <br>
  3 from Help menu select browser integration and then select your browser . <br>
-  4 restart your browser! Done <br>
+  4 Restart your browser! Done <br>
 
   </p>
