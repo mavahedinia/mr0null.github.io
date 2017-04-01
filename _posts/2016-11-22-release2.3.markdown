@@ -16,8 +16,8 @@ We are happy to announce the release of Persepolis Download Manager 2.3
 In this realese many reported bugs have been fixed and we have some new features:
 
 + Download queue added!
-+ Since now persepolis is also available for Mac(El capitan and Sierra) .
++ Since now Persepolis is also available for Mac(El capitan and Sierra) .
 + Chrome\Chromium extention is added! Persepolis is integrated with firefox and chrome and chromium.
 * You can sort your downloads with order of name size and ... . (see view menu)
-* You can import your links to persepolis with text file (see file menu) .
+* You can import your links to Persepolis with text file (see file menu) .
 * and ...
