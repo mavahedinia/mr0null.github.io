@@ -1,6 +1,6 @@
 ---
 title:  Persepolis 2.4
-subtitle: Released For a Better UX!
+subtitle: Released New Version!
 layout: default
 tags:
   - en
