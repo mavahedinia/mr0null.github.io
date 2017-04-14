@@ -1,0 +1,28 @@
+---
+title:  Persepolis 2.4
+subtitle: Released New Version!
+layout: default
+tags:
+  - en
+modal-id: 5
+date: 2017-4-14
+img: persepolis24.png
+thumbnail: persepolis24.png
+alt: Persepolis 2.4!
+project-date: April 2017
+category: Releases
+---
+We are happy to announce the release of Persepolis Download Manager 2.4
+In this Version:
+
+* many bugs is fixed and user interface is improved. please see preferences window.
+* You can put Persepolis on startup .
+* New icons added.
+* You can customize size of columns in download table or hide some of them.
+* We released Microsoft Windows version of Persepolis. GNU/Linux and Mac and Windows and BSD and Windows users can use Persepolis Download Manager now.
+* Our chrome extension improved and now you can select multi links and download them with persepolis.
+* Our Firefox extension will release very soon! but you can stil use firefox flashgot extension.
+* Special thanks to our conributors for pull requests and bug reports and feature requests!
+
+Reagrds
+AliReza AmirSamimi
