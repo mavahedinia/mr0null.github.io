@@ -4,7 +4,7 @@ subtitle: نصب پرسپولیس بر توزیع های پایه دبیان
 layout: default
 tags:
   - fa
-modal-id: 5
+modal-id: 1
 date: 2017-1-18
 img: debian.png
 thumbnail: debian.png

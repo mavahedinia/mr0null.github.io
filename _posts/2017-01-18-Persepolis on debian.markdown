@@ -4,7 +4,7 @@ subtitle: install Persepolis on all debian bases distros
 layout: default
 tags:
   - en
-modal-id: 5
+modal-id: 1
 date: 2017-1-18
 img: debian.png
 thumbnail: debian.png
