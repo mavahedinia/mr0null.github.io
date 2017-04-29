@@ -1,4 +1,4 @@
-url: https://mr0null.github.io
+url: https:/persepolisdm.github.io
 baseurl:
 
 # Site settings
@@ -6,8 +6,8 @@ title: Persepolis Download Manager
 title-fa: دانلود منیجر پرسپولیس
 logo: logo.png
 email: persepolis@beeit.ir
-description: "Persepolis Download Manager, is a libre and open-source download manager which is supported on GNU/Linux and MacOS!"
-description-fa: "پرسپولیس، یک دانلود منیجر آزاد و بازمتن هست که در حال حاضر، روی لینوکس و مکینتاش پشتیبانی می‌شود!"
+description: "Persepolis Download Manager, is a libre and open-source download manager which is supported on GNU/Linux , BSDs , MacOS and Windows"
+description-fa: "پرسپولیس، یک دانلود منیجر آزاد و بازمتن هست که در حال حاضر، روی گنو/لینوکس ، بی‌اس‌دی ها ، مکینتاش و ویندوز پشتیبانی می‌شود!"
 
 # Team names, titles and social links
 people:
