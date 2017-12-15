@@ -4,11 +4,11 @@ This is the template used for Persepolis Download Manager's website at https://p
 
 
 
-## Dependencies:
+### Dependencies:
 
 To see what's going on here, you need [Jekyll](https://jekyllrb.com/) installed.
 
-## Running:
+### Running:
 
 * Clone This Repository:
 
@@ -18,4 +18,4 @@ To see what's going on here, you need [Jekyll](https://jekyllrb.com/) installed.
 
             cd persepolisdm.github.io; jekyll serve
 
-* Open your browsers and navigate to the provided link by Jekyll
+* Open your browser and navigate to the provided link by Jekyll
