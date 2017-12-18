@@ -1,0 +1,35 @@
+---
+title:  Persepolis 3.0.1
+subtitle: Released New Version!
+layout: default
+tags:
+  - en
+modal-id: 1
+date: 2017-12-19
+img: persepolis3.png
+thumbnail: persepolis3.png
+project-date: December 2017
+category: Releases
+---
+
+We are happy to announce the release of Persepolis Download Manager 3.0.1 .
+
+
+We fix fome bugs in version 3.0.0:
+
+    1 - Compatbility bug with version 2 is fixed.
+
+    2 - UI issue with 4K displays is fixed.
+
+    3 - Queue crashing problem is fixed.
+
+    4 - other minor bugs.
+
+
+Special thanks to contributors for bug reports!
+
+
+Reagrds
+
+AliReza AmirSamimi
+
